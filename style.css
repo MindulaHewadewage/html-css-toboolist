@@ -48,14 +48,21 @@ h2::before{
 }
 
 .check{
-    content:"\2714";
     display: inline;
     color: green;
+    font-size:12px ;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 1px 3px;
 }
 
 .cross{
     display: inline;
     color: red;
+    font-size:12px ;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 1px 3px;
 }
 
 span{
