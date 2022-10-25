@@ -22,7 +22,7 @@
 /* generic */
 .container{
     width: 50%;
-    height: 600px;
+    height: 650px;
     margin: 0 auto;
     background-color: white;
     border-radius: 10px;
@@ -32,6 +32,10 @@
 main{
     padding-top: 10px;
     padding-left: 40px;
+}
+
+section{
+    padding-bottom: 20px;
 }
 
 /* Utilities */
@@ -49,17 +53,18 @@ h2::before{
     color: green;
 }
 
+.cross{
+    display: inline;
+    color: red;
+}
+
 span{
     font-size: 18px;
 }
 
-.editorial{
-    display: inline;
-    background-color: dodgerblue;
-    color: white;
-    padding:4px 8px;
-    border-radius: 10px;
 
+.text{
+    padding-bottom: 20px;
 }
 
 /* navigazione */
@@ -82,6 +87,43 @@ span{
     background-color: dodgerblue;
 }
 
+/* Etichette */
+
+.etichette{
+    display: inline;
+    padding:4px 8px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.editorial{
+    background-color: dodgerblue;
+}
+
+.q1-goals{
+    background-color: violet;
+    
+}
+
+.recruiting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orange;
+
+}
+
+.website{
+    background-color: palevioletred
+
+}
+
+.sales{
+    background-color: lightgreen;
+
+}
 
 
 
