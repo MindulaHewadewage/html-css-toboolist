@@ -1,0 +1,27 @@
+
+.imm.logo{
+    display: inline-block;
+    height: 100px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+
+.logo-text{
+    display: inline;
+    font-size: 50px;
+   
+}
+
+
+.container{
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+
